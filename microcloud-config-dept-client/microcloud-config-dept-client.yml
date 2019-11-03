@@ -33,7 +33,7 @@ spring:
     # url: jdbc:mysql://localhost:3306/mldn8001           # 数据库连接地址
     url: jdbc:mysql://localhost:3306/mldn8001?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=CTT           # 数据库连接地址
     username: root                                  # 数据库用户名
-    password: manager                            # 数据库连接密码
+    password: '{cipher}2a5a4e8eea2824317632ef8c579a3e100ce8694b2a3efd8cbd90dcdb7cd6649e'                            # 数据库连接密码
     dbcp2:                                          # 进行数据库连接池的配置
       min-idle: 5                                   # 数据库连接池的最小维持连接数    
       initial-size: 5                               # 初始化提供的连接数
