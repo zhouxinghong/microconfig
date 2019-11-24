@@ -34,6 +34,6 @@ eureka:
       defaultZone: http://edmin:123@eureka-config.com:7301/eureka    # 此处一定要配置一个可以正常访问的defaultZone URL地址
 
 info:
-  app.name: msdn-microcloud-beta-2
+  app.name: msdn-microcloud-beta-3
   company.name: www.msdnjava.com
-  app.version: v-beta-2.1.2
+  app.version: v-beta-3.5.2
